@@ -1,6 +1,8 @@
-# PRD & RFE Creation Workflow for Ambient Code Platform
+# Create PRDs & RFEs
 
-A comprehensive workflow for creating Product Requirements Documents (PRDs) and systematically breaking them down into actionable Request for Enhancement (RFE) items. 
+A comprehensive workflow for creating Product Requirements Documents (PRDs) and systematically breaking them down into actionable Request for Enhancement (RFE) items.
+
+This workflow is deisned to be run on [Ambient Code Platform](https://github.com/ambient-code/platform). 
 
 ## Who this is for
 
