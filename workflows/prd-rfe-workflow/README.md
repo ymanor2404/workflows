@@ -48,6 +48,10 @@ flowchart LR
 
 The workflow is accessible through slash commands which enable the user to keep the agents on track. Some commands have prerequisites. For example `/rfe.breakdown` which breaks a PRD down into RFEs, requires the existance of a PRD document. 
 
+**Quick Start**: Use `/rfe.speedrun` to automatically run the entire workflow from discovery to Jira submission, only pausing for critical questions.
+
+**Individual Commands**:
+
 1. [`prd.discover`](#1-prddiscover) - Product discovery
 2. [`prd.requirements`](#2-prdrequirements) - Define precise requirements
 3. [`prd.create`](#3-prdcreate) - Draft or update PRD
@@ -58,6 +62,11 @@ The workflow is accessible through slash commands which enable the user to keep 
 8. [`rfe.revise`](#8-rferevise) - RFE Revision
 9. [`rfe.prioritize`](#9-rfeprioritize) - Prioritize RFEs and create implementation roadmap
 10. [`rfe.submit`](#10-rfesubmit) - RFE formatting and submission to Jira
+
+**Meta-Commands**:
+
+- [`rfe.speedrun`](#rfespeedrun) - Automatically run the complete workflow from discovery to Jira submission, only pausing for critical questions
+- [`prd.sources`](#prdsources) - List all data sources that informed the PRD creation, including documents, code references, research, and external sources
 
 ---
 
