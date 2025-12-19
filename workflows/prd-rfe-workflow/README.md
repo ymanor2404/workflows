@@ -48,16 +48,16 @@ flowchart LR
 
 The workflow is accessible through slash commands which enable the user to keep the agents on track. Some commands have prerequisites. For example `/rfe.breakdown` which breaks a PRD down into RFEs, requires the existance of a PRD document. 
 
-1. [`prd.discover`](#1-prddiscover---product-discovery) - Product discovery
-2. [`prd.requirements`](#2-prdrequirements---requirements-gathering) - Define precise requirements
-3. [`prd.create`](#3-prdcreate---prd-creation) - Draft or update PRD
-4. [`prd.review`](#4-prdreview---prd-review) - PRD review by senior engineer and architect agents.
-5. [`prd.revise`](#5-prdrevise---prd-revision) - Revise PRD based on feedback or new data
-6. [`rfe.breakdown`](#6-rfebreakdown---rfe-breakdown) - Breakdown a PRD into scoped RFEs
-7. [`rfe.review`](#7-rfereview---rfe-review) - Individual RFE review by senior engineer and architect agents.
-8. [`rfe.revise`](#8-rferevise---rfe-revision) - RFE Revision
-9. [`rfe.prioritize`](#9-rfeprioritize---rfe-prioritization) - Prioritize RFEs and create implementation roadmap
-10. [`rfe.submit`](#10-rfesubmit---rfe-submission) - RFE formatting and submission to Jira
+1. [`prd.discover`](#1-prddiscover) - Product discovery
+2. [`prd.requirements`](#2-prdrequirements) - Define precise requirements
+3. [`prd.create`](#3-prdcreate) - Draft or update PRD
+4. [`prd.review`](#4-prdreview) - PRD review by senior engineer and architect agents.
+5. [`prd.revise`](#5-prdrevise) - Revise PRD based on feedback or new data
+6. [`rfe.breakdown`](#6-rfebreakdown) - Breakdown a PRD into scoped RFEs
+7. [`rfe.review`](#7-rfereview) - Individual RFE review by senior engineer and architect agents.
+8. [`rfe.revise`](#8-rferevise) - RFE Revision
+9. [`rfe.prioritize`](#9-rfeprioritize) - Prioritize RFEs and create implementation roadmap
+10. [`rfe.submit`](#10-rfesubmit) - RFE formatting and submission to Jira
 
 ---
 
